@@ -1,0 +1,6 @@
+@Kimera.Api_HostAddress = http://localhost:5105
+
+GET {{Kimera.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
