@@ -1,0 +1,16 @@
+C:\ProjetosC\KimeraApp\Kimera.Infrastructure\bin\Debug\net9.0\Kimera.Infrastructure.deps.json
+C:\ProjetosC\KimeraApp\Kimera.Infrastructure\bin\Debug\net9.0\Kimera.Infrastructure.dll
+C:\ProjetosC\KimeraApp\Kimera.Infrastructure\bin\Debug\net9.0\Kimera.Infrastructure.pdb
+C:\ProjetosC\KimeraApp\Kimera.Infrastructure\bin\Debug\net9.0\Kimera.Domain.dll
+C:\ProjetosC\KimeraApp\Kimera.Infrastructure\bin\Debug\net9.0\Kimera.Domain.pdb
+C:\ProjetosC\KimeraApp\Kimera.Infrastructure\obj\Debug\net9.0\Kimera.Infrastructure.csproj.AssemblyReference.cache
+C:\ProjetosC\KimeraApp\Kimera.Infrastructure\obj\Debug\net9.0\Kimera.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjetosC\KimeraApp\Kimera.Infrastructure\obj\Debug\net9.0\Kimera.Infrastructure.AssemblyInfoInputs.cache
+C:\ProjetosC\KimeraApp\Kimera.Infrastructure\obj\Debug\net9.0\Kimera.Infrastructure.AssemblyInfo.cs
+C:\ProjetosC\KimeraApp\Kimera.Infrastructure\obj\Debug\net9.0\Kimera.Infrastructure.csproj.CoreCompileInputs.cache
+C:\ProjetosC\KimeraApp\Kimera.Infrastructure\obj\Debug\net9.0\Kimera.Infrastructure.sourcelink.json
+C:\ProjetosC\KimeraApp\Kimera.Infrastructure\obj\Debug\net9.0\Kimera.I.2241B721.Up2Date
+C:\ProjetosC\KimeraApp\Kimera.Infrastructure\obj\Debug\net9.0\Kimera.Infrastructure.dll
+C:\ProjetosC\KimeraApp\Kimera.Infrastructure\obj\Debug\net9.0\refint\Kimera.Infrastructure.dll
+C:\ProjetosC\KimeraApp\Kimera.Infrastructure\obj\Debug\net9.0\Kimera.Infrastructure.pdb
+C:\ProjetosC\KimeraApp\Kimera.Infrastructure\obj\Debug\net9.0\ref\Kimera.Infrastructure.dll

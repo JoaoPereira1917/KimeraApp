@@ -13,6 +13,9 @@ FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["Kimera.Api/Kimera.Api.csproj", "Kimera.Api/"]
+COPY ["Kimera.Application/Kimera.Application.csproj", "Kimera.Application/"]
+COPY ["Kimera.Domain/Kimera.Domain.csproj", "Kimera.Domain/"]
+COPY ["Kimera.Infrastructure/Kimera.Infrastructure.csproj", "Kimera.Infrastructure/"]
 RUN dotnet restore "./Kimera.Api/Kimera.Api.csproj"
 COPY . .
 WORKDIR "/src/Kimera.Api"

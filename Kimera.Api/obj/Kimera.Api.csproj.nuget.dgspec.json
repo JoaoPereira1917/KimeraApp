@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\KimeraApp\\Kimera.Api\\Kimera.Api.csproj": {}
+    "C:\\ProjetosC\\KimeraApp\\Kimera.Api\\Kimera.Api.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\KimeraApp\\Kimera.Api\\Kimera.Api.csproj": {
+    "C:\\ProjetosC\\KimeraApp\\Kimera.Api\\Kimera.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\KimeraApp\\Kimera.Api\\Kimera.Api.csproj",
+        "projectUniqueName": "C:\\ProjetosC\\KimeraApp\\Kimera.Api\\Kimera.Api.csproj",
         "projectName": "Kimera.Api",
-        "projectPath": "C:\\Projetos\\KimeraApp\\Kimera.Api\\Kimera.Api.csproj",
-        "packagesPath": "C:\\Users\\joaon\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\KimeraApp\\Kimera.Api\\obj\\",
+        "projectPath": "C:\\ProjetosC\\KimeraApp\\Kimera.Api\\Kimera.Api.csproj",
+        "packagesPath": "C:\\Users\\João\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjetosC\\KimeraApp\\Kimera.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\joaon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\João\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,18 +26,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
+            "framework": "net9.0",
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Projetos\\KimeraApp\\Kimera.Application\\Kimera.Application.csproj": {
-                "projectPath": "C:\\Projetos\\KimeraApp\\Kimera.Application\\Kimera.Application.csproj"
+              "C:\\ProjetosC\\KimeraApp\\Kimera.Application\\Kimera.Application.csproj": {
+                "projectPath": "C:\\ProjetosC\\KimeraApp\\Kimera.Application\\Kimera.Application.csproj"
               },
-              "C:\\Projetos\\KimeraApp\\Kimera.Infrastructure\\Kimera.Infrastructure.csproj": {
-                "projectPath": "C:\\Projetos\\KimeraApp\\Kimera.Infrastructure\\Kimera.Infrastructure.csproj"
+              "C:\\ProjetosC\\KimeraApp\\Kimera.Infrastructure\\Kimera.Infrastructure.csproj": {
+                "projectPath": "C:\\ProjetosC\\KimeraApp\\Kimera.Infrastructure\\Kimera.Infrastructure.csproj"
               }
             }
           }
@@ -52,10 +52,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net9.0": {
+          "framework": "net9.0",
           "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
@@ -78,24 +79,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[9.0.18, 9.0.18]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[9.0.18, 9.0.18]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[9.0.18, 9.0.18]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[9.0.18, 9.0.18]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -104,24 +87,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.110/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projetos\\KimeraApp\\Kimera.Application\\Kimera.Application.csproj": {
+    "C:\\ProjetosC\\KimeraApp\\Kimera.Application\\Kimera.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\KimeraApp\\Kimera.Application\\Kimera.Application.csproj",
+        "projectUniqueName": "C:\\ProjetosC\\KimeraApp\\Kimera.Application\\Kimera.Application.csproj",
         "projectName": "Kimera.Application",
-        "projectPath": "C:\\Projetos\\KimeraApp\\Kimera.Application\\Kimera.Application.csproj",
-        "packagesPath": "C:\\Users\\joaon\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\KimeraApp\\Kimera.Application\\obj\\",
+        "projectPath": "C:\\ProjetosC\\KimeraApp\\Kimera.Application\\Kimera.Application.csproj",
+        "packagesPath": "C:\\Users\\João\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjetosC\\KimeraApp\\Kimera.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\joaon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\João\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -130,15 +113,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
+            "framework": "net9.0",
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Projetos\\KimeraApp\\Kimera.Domain\\Kimera.Domain.csproj": {
-                "projectPath": "C:\\Projetos\\KimeraApp\\Kimera.Domain\\Kimera.Domain.csproj"
+              "C:\\ProjetosC\\KimeraApp\\Kimera.Domain\\Kimera.Domain.csproj": {
+                "projectPath": "C:\\ProjetosC\\KimeraApp\\Kimera.Domain\\Kimera.Domain.csproj"
               }
             }
           }
@@ -153,10 +136,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net9.0": {
+          "framework": "net9.0",
           "targetAlias": "net9.0",
           "imports": [
             "net461",
@@ -169,43 +153,29 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[9.0.18, 9.0.18]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[9.0.18, 9.0.18]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[9.0.18, 9.0.18]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.110/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projetos\\KimeraApp\\Kimera.Domain\\Kimera.Domain.csproj": {
+    "C:\\ProjetosC\\KimeraApp\\Kimera.Domain\\Kimera.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\KimeraApp\\Kimera.Domain\\Kimera.Domain.csproj",
+        "projectUniqueName": "C:\\ProjetosC\\KimeraApp\\Kimera.Domain\\Kimera.Domain.csproj",
         "projectName": "Kimera.Domain",
-        "projectPath": "C:\\Projetos\\KimeraApp\\Kimera.Domain\\Kimera.Domain.csproj",
-        "packagesPath": "C:\\Users\\joaon\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\KimeraApp\\Kimera.Domain\\obj\\",
+        "projectPath": "C:\\ProjetosC\\KimeraApp\\Kimera.Domain\\Kimera.Domain.csproj",
+        "packagesPath": "C:\\Users\\João\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjetosC\\KimeraApp\\Kimera.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\joaon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\João\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -214,11 +184,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
+            "framework": "net9.0",
             "targetAlias": "net9.0",
             "projectReferences": {}
           }
@@ -233,10 +203,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net9.0": {
+          "framework": "net9.0",
           "targetAlias": "net9.0",
           "imports": [
             "net461",
@@ -249,43 +220,29 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[9.0.18, 9.0.18]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[9.0.18, 9.0.18]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[9.0.18, 9.0.18]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.110/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projetos\\KimeraApp\\Kimera.Infrastructure\\Kimera.Infrastructure.csproj": {
+    "C:\\ProjetosC\\KimeraApp\\Kimera.Infrastructure\\Kimera.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\KimeraApp\\Kimera.Infrastructure\\Kimera.Infrastructure.csproj",
+        "projectUniqueName": "C:\\ProjetosC\\KimeraApp\\Kimera.Infrastructure\\Kimera.Infrastructure.csproj",
         "projectName": "Kimera.Infrastructure",
-        "projectPath": "C:\\Projetos\\KimeraApp\\Kimera.Infrastructure\\Kimera.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\joaon\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\KimeraApp\\Kimera.Infrastructure\\obj\\",
+        "projectPath": "C:\\ProjetosC\\KimeraApp\\Kimera.Infrastructure\\Kimera.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\João\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjetosC\\KimeraApp\\Kimera.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\joaon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\João\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -294,15 +251,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
+            "framework": "net9.0",
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Projetos\\KimeraApp\\Kimera.Domain\\Kimera.Domain.csproj": {
-                "projectPath": "C:\\Projetos\\KimeraApp\\Kimera.Domain\\Kimera.Domain.csproj"
+              "C:\\ProjetosC\\KimeraApp\\Kimera.Domain\\Kimera.Domain.csproj": {
+                "projectPath": "C:\\ProjetosC\\KimeraApp\\Kimera.Domain\\Kimera.Domain.csproj"
               }
             }
           }
@@ -317,10 +274,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net9.0": {
+          "framework": "net9.0",
           "targetAlias": "net9.0",
           "imports": [
             "net461",
@@ -333,26 +291,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[9.0.18, 9.0.18]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[9.0.18, 9.0.18]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[9.0.18, 9.0.18]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.110/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
