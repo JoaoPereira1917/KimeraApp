@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ProjetosC\\KimeraApp\\Kimera.API\\Kimera.Api.csproj": {}
+    "C:\\ProjetosC\\KimeraApp\\Kimera.Api\\Kimera.Api.csproj": {}
   },
   "projects": {
-    "C:\\ProjetosC\\KimeraApp\\Kimera.API\\Kimera.Api.csproj": {
+    "C:\\ProjetosC\\KimeraApp\\Kimera.Api\\Kimera.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProjetosC\\KimeraApp\\Kimera.API\\Kimera.Api.csproj",
+        "projectUniqueName": "C:\\ProjetosC\\KimeraApp\\Kimera.Api\\Kimera.Api.csproj",
         "projectName": "Kimera.Api",
-        "projectPath": "C:\\ProjetosC\\KimeraApp\\Kimera.API\\Kimera.Api.csproj",
+        "projectPath": "C:\\ProjetosC\\KimeraApp\\Kimera.Api\\Kimera.Api.csproj",
         "packagesPath": "C:\\Users\\João\\.nuget\\packages\\",
-        "outputPath": "C:\\ProjetosC\\KimeraApp\\Kimera.API\\obj\\",
+        "outputPath": "C:\\ProjetosC\\KimeraApp\\Kimera.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

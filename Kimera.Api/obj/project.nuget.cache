@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sR0riKy7jKc=",
+  "dgSpecHash": "sUggj6Em0e4=",
   "success": true,
-  "projectFilePath": "C:\\ProjetosC\\KimeraApp\\Kimera.API\\Kimera.Api.csproj",
+  "projectFilePath": "C:\\ProjetosC\\KimeraApp\\Kimera.Api\\Kimera.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\João\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\João\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.17\\microsoft.aspnetcore.openapi.9.0.17.nupkg.sha512",

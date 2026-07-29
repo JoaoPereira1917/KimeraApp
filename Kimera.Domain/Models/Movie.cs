@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Kimera.Domain.Models
 {
-    internal class Movie
+    public class Movie
     {
         public int Id { get; private set; }
         public int TmdbId { get; private set; }
