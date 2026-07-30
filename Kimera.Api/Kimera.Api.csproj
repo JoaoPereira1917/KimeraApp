@@ -23,4 +23,8 @@
     <ProjectReference Include="..\Kimera.Infrastructure\Kimera.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>
