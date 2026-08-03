@@ -1,0 +1,12 @@
+C:\ProjetosC\KimeraApp\Kimera.Domain\bin\Debug\net10.0\Kimera.Domain.deps.json
+C:\ProjetosC\KimeraApp\Kimera.Domain\bin\Debug\net10.0\Kimera.Domain.dll
+C:\ProjetosC\KimeraApp\Kimera.Domain\bin\Debug\net10.0\Kimera.Domain.pdb
+C:\ProjetosC\KimeraApp\Kimera.Domain\obj\Debug\net10.0\Kimera.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjetosC\KimeraApp\Kimera.Domain\obj\Debug\net10.0\Kimera.Domain.AssemblyInfoInputs.cache
+C:\ProjetosC\KimeraApp\Kimera.Domain\obj\Debug\net10.0\Kimera.Domain.AssemblyInfo.cs
+C:\ProjetosC\KimeraApp\Kimera.Domain\obj\Debug\net10.0\Kimera.Domain.csproj.CoreCompileInputs.cache
+C:\ProjetosC\KimeraApp\Kimera.Domain\obj\Debug\net10.0\Kimera.Domain.sourcelink.json
+C:\ProjetosC\KimeraApp\Kimera.Domain\obj\Debug\net10.0\Kimera.Domain.dll
+C:\ProjetosC\KimeraApp\Kimera.Domain\obj\Debug\net10.0\refint\Kimera.Domain.dll
+C:\ProjetosC\KimeraApp\Kimera.Domain\obj\Debug\net10.0\Kimera.Domain.pdb
+C:\ProjetosC\KimeraApp\Kimera.Domain\obj\Debug\net10.0\ref\Kimera.Domain.dll
