@@ -406,6 +406,19 @@
           }
         }
       },
+      "Kimera.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Kimera.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Kimera.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Kimera.Application.dll": {}
+        }
+      },
       "Kimera.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -1027,6 +1040,11 @@
         "postgresql.png"
       ]
     },
+    "Kimera.Application/1.0.0": {
+      "type": "project",
+      "path": "../Kimera.Application/Kimera.Application.csproj",
+      "msbuildProject": "../Kimera.Application/Kimera.Application.csproj"
+    },
     "Kimera.Domain/1.0.0": {
       "type": "project",
       "path": "../Kimera.Domain/Kimera.Domain.csproj",
@@ -1035,6 +1053,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "Kimera.Application >= 1.0.0",
       "Kimera.Domain >= 1.0.0",
       "Microsoft.Extensions.Configuration.EnvironmentVariables >= 9.0.0",
       "Microsoft.Extensions.Configuration.Json >= 9.0.0",
@@ -1074,6 +1093,9 @@
           "framework": "net9.0",
           "targetAlias": "net9.0",
           "projectReferences": {
+            "C:\\ProjetosC\\KimeraApp\\Kimera.Application\\Kimera.Application.csproj": {
+              "projectPath": "C:\\ProjetosC\\KimeraApp\\Kimera.Application\\Kimera.Application.csproj"
+            },
             "C:\\ProjetosC\\KimeraApp\\Kimera.Domain\\Kimera.Domain.csproj": {
               "projectPath": "C:\\ProjetosC\\KimeraApp\\Kimera.Domain\\Kimera.Domain.csproj"
             }

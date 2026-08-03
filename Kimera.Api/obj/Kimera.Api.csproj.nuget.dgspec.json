@@ -264,6 +264,9 @@
             "framework": "net9.0",
             "targetAlias": "net9.0",
             "projectReferences": {
+              "C:\\ProjetosC\\KimeraApp\\Kimera.Application\\Kimera.Application.csproj": {
+                "projectPath": "C:\\ProjetosC\\KimeraApp\\Kimera.Application\\Kimera.Application.csproj"
+              },
               "C:\\ProjetosC\\KimeraApp\\Kimera.Domain\\Kimera.Domain.csproj": {
                 "projectPath": "C:\\ProjetosC\\KimeraApp\\Kimera.Domain\\Kimera.Domain.csproj"
               }

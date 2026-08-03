@@ -1119,6 +1119,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
+          "Kimera.Application": "1.0.0",
           "Kimera.Domain": "1.0.0",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "9.0.0",
           "Microsoft.Extensions.Configuration.Json": "9.0.0",
