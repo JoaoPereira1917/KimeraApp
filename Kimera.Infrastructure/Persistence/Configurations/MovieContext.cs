@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Kimera.Domain.Models;
+using Kimera.Domain.Entities;
 using System.ComponentModel.DataAnnotations.Schema;
 
 
-namespace Kimera.Infrastructure
+namespace Kimera.Infrastructure.Persistence.Configurations
 {
     internal class MovieContext : DbContext
     {

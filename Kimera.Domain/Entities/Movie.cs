@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Kimera.Domain.Models
+namespace Kimera.Domain.Entities
 {
     public class Movie
     {

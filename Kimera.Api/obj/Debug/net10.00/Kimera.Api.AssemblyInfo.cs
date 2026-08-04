@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kimera.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f18dde2d62561c2a966c418a6a38045fc32d442a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e0f0db48d4f8a72c556ba27047e3bd4de01f88f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kimera.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kimera.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

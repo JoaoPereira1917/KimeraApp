@@ -1,13 +1,14 @@
 ﻿using Kimera.Application.Interfaces;
-using Kimera.Domain.Models;
+using Kimera.Domain.Entities;
+using Kimera.Infrastructure.Persistence.Configurations;
 using Microsoft.EntityFrameworkCore;
-using System.ComponentModel.DataAnnotations;
 
-namespace Kimera.Infrastructure.Repository
+
+namespace Kimera.Infrastructure.Persistence.Repositories
 {
     internal class MovieRepository : IMovieRepository
     {
-        [Required]
+        
         private readonly MovieContext _context;
         public MovieRepository(MovieContext context)
         {

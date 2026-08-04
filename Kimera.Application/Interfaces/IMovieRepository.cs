@@ -1,4 +1,4 @@
-﻿using Kimera.Domain.Models;
+﻿using Kimera.Domain.Entities;
 namespace Kimera.Application.Interfaces
 {
     public interface IMovieRepository

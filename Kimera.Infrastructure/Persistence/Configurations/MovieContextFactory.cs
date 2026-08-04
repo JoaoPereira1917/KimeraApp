@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 
-namespace Kimera.Infrastructure.Design
+namespace Kimera.Infrastructure.Persistence.Configurations
 {
     internal class MovieContextFactory : IDesignTimeDbContextFactory<MovieContext>
     {

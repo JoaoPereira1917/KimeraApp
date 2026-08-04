@@ -75,6 +75,9 @@ C:\ProjetosC\KimeraApp\Kimera.Api\bin\Debug\net10.00\Mono.TextTemplating.dll
 C:\ProjetosC\KimeraApp\Kimera.Api\bin\Debug\net10.00\Newtonsoft.Json.dll
 C:\ProjetosC\KimeraApp\Kimera.Api\bin\Debug\net10.00\Npgsql.dll
 C:\ProjetosC\KimeraApp\Kimera.Api\bin\Debug\net10.00\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\ProjetosC\KimeraApp\Kimera.Api\bin\Debug\net10.00\Swashbuckle.AspNetCore.Swagger.dll
+C:\ProjetosC\KimeraApp\Kimera.Api\bin\Debug\net10.00\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\ProjetosC\KimeraApp\Kimera.Api\bin\Debug\net10.00\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\ProjetosC\KimeraApp\Kimera.Api\bin\Debug\net10.00\System.CodeDom.dll
 C:\ProjetosC\KimeraApp\Kimera.Api\bin\Debug\net10.00\System.Composition.AttributedModel.dll
 C:\ProjetosC\KimeraApp\Kimera.Api\bin\Debug\net10.00\System.Composition.Convention.dll

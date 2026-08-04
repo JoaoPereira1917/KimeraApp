@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "Kimera.Api.Controllers.TestController",
+    "Method": "GetById",
+    "RelativePath": "api/Test/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kimera.Api.Controllers.TestController",
+    "Method": "AddMovie",
+    "RelativePath": "api/Test/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Kimera.Api.DTOs.CreateMovieRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Kimera.Api.Controllers.TestController",
+    "Method": "ListMovies",
+    "RelativePath": "api/Test/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
