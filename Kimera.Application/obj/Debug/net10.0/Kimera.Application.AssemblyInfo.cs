@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kimera.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e0f0db48d4f8a72c556ba27047e3bd4de01f88f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d13371694da18e7a167291a3032254243637528a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kimera.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kimera.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
