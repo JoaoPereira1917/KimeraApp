@@ -187,3 +187,4 @@ C:\ProjetosC\KimeraApp\Kimera.Api\obj\Debug\net10.00\refint\Kimera.Api.dll
 C:\ProjetosC\KimeraApp\Kimera.Api\obj\Debug\net10.00\Kimera.Api.pdb
 C:\ProjetosC\KimeraApp\Kimera.Api\obj\Debug\net10.00\Kimera.Api.genruntimeconfig.cache
 C:\ProjetosC\KimeraApp\Kimera.Api\obj\Debug\net10.00\ref\Kimera.Api.dll
+C:\ProjetosC\KimeraApp\Kimera.Api\obj\Debug\net10.00\staticwebassets.upToDateCheck.txt

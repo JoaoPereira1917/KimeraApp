@@ -1,12 +1,11 @@
 ﻿using Kimera.Application.Interfaces;
-using Kimera.Infrastructure.Persistence.Configurations;
 using Kimera.Infrastructure.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 
-namespace Kimera.Infrastructure
+namespace Kimera.Infrastructure.Persistence.Configurations
 {
     public static class InfraDependencyInjection
     {

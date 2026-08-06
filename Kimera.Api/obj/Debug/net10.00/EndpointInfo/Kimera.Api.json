@@ -1,17 +1,9 @@
 {
-  "openapi": "3.1.1",
+  "openapi": "3.0.4",
   "info": {
-    "title": "Kimera.Api | v1",
-    "version": "1.0.0"
+    "title": "Kimera.Api",
+    "version": "1.0"
   },
-  "servers": [
-    {
-      "url": "https://localhost:7104"
-    },
-    {
-      "url": "http://localhost:5105"
-    }
-  ],
   "paths": {
     "/api/Test/list": {
       "get": {
@@ -47,8 +39,7 @@
                 "$ref": "#/components/schemas/CreateMovieRequest"
               }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -68,11 +59,7 @@
             "in": "path",
             "required": true,
             "schema": {
-              "pattern": "^-?(?:0|[1-9]\\d*)$",
-              "type": [
-                "integer",
-                "string"
-              ],
+              "type": "integer",
               "format": "int32"
             }
           }
@@ -91,63 +78,51 @@
         "type": "object",
         "properties": {
           "tmdbId": {
-            "pattern": "^-?(?:0|[1-9]\\d*)$",
-            "type": [
-              "integer",
-              "string"
-            ],
+            "type": "integer",
             "format": "int32"
           },
           "title": {
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "originalTitle": {
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "overview": {
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "releaseDate": {
             "type": "string",
             "format": "date"
           },
           "runtime": {
-            "pattern": "^-?(?:0|[1-9]\\d*)$",
-            "type": [
-              "integer",
-              "string"
-            ],
+            "type": "integer",
             "format": "int32"
           },
           "originalLanguage": {
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "voteAverage": {
-            "pattern": "^-?(?:0|[1-9]\\d*)(?:\\.\\d+)?$",
-            "type": [
-              "number",
-              "string"
-            ],
+            "type": "number",
             "format": "double"
           },
           "voteCount": {
-            "pattern": "^-?(?:0|[1-9]\\d*)$",
-            "type": [
-              "integer",
-              "string"
-            ],
+            "type": "integer",
             "format": "int32"
           },
           "posterPath": {
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "backdropPath": {
-            "type": [
-              "null",
-              "string"
-            ]
+            "type": "string",
+            "nullable": true
           }
-        }
+        },
+        "additionalProperties": false
       }
     }
   },

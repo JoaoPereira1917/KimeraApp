@@ -1,6 +1,6 @@
 using Kimera.Api.Exceptions;
 using Kimera.Application.Interfaces;
-using Kimera.Infrastructure;
+using Kimera.Infrastructure.Persistence.Configurations;
 using Swashbuckle.AspNetCore.SwaggerUI;
 
 var builder = WebApplication.CreateBuilder(args);
