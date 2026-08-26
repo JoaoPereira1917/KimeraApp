@@ -7,12 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="DTOs\**" />
+    <EmbeddedResource Remove="DTOs\**" />
+    <None Remove="DTOs\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Kimera.Domain\Kimera.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="DependencyInjection\" />
-    <Folder Include="DTOs\" />
     <Folder Include="Services\" />
   </ItemGroup>
 

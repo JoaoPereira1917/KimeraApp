@@ -26,17 +26,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateMovieRequest"
+                "$ref": "#/components/schemas/MovieDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateMovieRequest"
+                "$ref": "#/components/schemas/MovieDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateMovieRequest"
+                "$ref": "#/components/schemas/MovieDTO"
               }
             }
           }
@@ -74,7 +74,7 @@
   },
   "components": {
     "schemas": {
-      "CreateMovieRequest": {
+      "MovieDTO": {
         "type": "object",
         "properties": {
           "tmdbId": {

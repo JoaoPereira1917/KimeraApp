@@ -177,7 +177,50 @@ namespace Kimera.Tests.Domain
             Assert.Equal(posterPath, movie.PosterPath);
             Assert.Equal(backdropPath, movie.BackdropPath);
 
-        }      
+        }
+
+        [Fact]
+        public void Method_Should_Update_Properties_Correctly()
+        {
+            int tmdbId = 123;
+            string title = "Test Movie";
+            string originalTitle = "Original Test Movie";
+            string overview = "This is a test movie.";
+            DateOnly releaseDate = new DateOnly(2023, 1, 1);
+            int runtime = 120;
+            string originalLanguage = "En";
+            decimal voteAverage = 8.5m;
+            int voteCount = 1000;
+            string posterPath = "/testposter.jpg";
+            string? backdropPath = null;
+            var movie = new Movie(tmdbId, 
+                title,
+                originalTitle,
+                overview,
+                releaseDate,
+                runtime,
+                originalLanguage,
+                voteAverage,
+                voteCount,
+                posterPath,
+                backdropPath);
+            Assert.Equal(tmdbId, movie.TmdbId);
+            Assert.Equal(title, movie.Title);
+            Assert.Equal(originalTitle, movie.OriginalTitle);
+            Assert.Equal(overview, movie.Overview);
+            Assert.Equal(releaseDate, movie.ReleaseDate);
+            Assert.Equal(runtime, movie.Runtime);
+            Assert.Equal(originalLanguage, movie.OriginalLanguage);
+            Assert.Equal(voteAverage, movie.VoteAverage);
+            Assert.Equal(voteCount, movie.VoteCount);
+            Assert.Equal(posterPath, movie.PosterPath);
+            Assert.Equal(backdropPath, movie.BackdropPath);
+            movie.UpdateDetails("Updated Overview", "/updatedposter.jpg", "/updatedbackdrop.jpg");
+            Assert.Equal("Updated Overview", movie.Overview);
+            Assert.Equal("/updatedposter.jpg", movie.PosterPath);
+            Assert.Equal("/updatedbackdrop.jpg", movie.BackdropPath);
+
+        }
 
 
     }

@@ -1,7 +1,9 @@
 ﻿using Kimera.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+
+using Kimera.Infrastructure.DTOs;
 using Kimera.Domain.Entities;
-using Kimera.Api.DTOs;
+
 
 namespace Kimera.Api.Controllers
 {
@@ -14,6 +16,8 @@ namespace Kimera.Api.Controllers
         {
             _movieRepository = movieRepository;
         }
+
+
         [HttpGet("list")]
         public async Task<IActionResult> ListMovies()
         {
@@ -21,24 +25,25 @@ namespace Kimera.Api.Controllers
             return Ok(moviess);
         }
         [HttpPost("add")]
-        public async Task<IActionResult> AddMovie([FromBody] CreateMovieRequest request)
+        public async Task<IActionResult> AddMovie([FromBody] MovieDTO request)
         {
-            var movie = new Movie
-            (
-                tmdbId: request.TmdbId,
-                title: request.Title,
-                originalTitle: request.OriginalTitle,
-                overview: request.Overview,
-                releaseDate: request.ReleaseDate,
-                runtime: request.Runtime,
-                originalLanguage: request.OriginalLanguage,
-                voteAverage: request.VoteAverage,
-                voteCount: request.VoteCount,
-                posterPath: request.PosterPath,
-                backdropPath: request.BackdropPath
+            // Converte o DTO para a entidade de domínio antes de persistir
+            var movie = new Movie(
+                request.TmdbId,
+                request.Title,
+                request.OriginalTitle,
+                request.Overview,
+                request.ReleaseDate,
+                request.Runtime,
+                request.OriginalLanguage,
+                request.VoteAverage,
+                request.VoteCount,
+                request.PosterPath,
+                request.BackdropPath
             );
+
             await _movieRepository.AddAsync(movie);
-            
+
             return CreatedAtAction(nameof(GetById), new { id = movie.Id }, movie);
         }
         [HttpGet("{id}")]
@@ -51,5 +56,6 @@ namespace Kimera.Api.Controllers
             }
             return Ok(movie);
         }
+
     }
 }

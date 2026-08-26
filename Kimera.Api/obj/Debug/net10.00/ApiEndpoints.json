@@ -25,7 +25,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "Kimera.Api.DTOs.CreateMovieRequest",
+        "Type": "Kimera.Infrastructure.DTOs.MovieDTO",
         "IsRequired": true
       }
     ],

@@ -1,6 +1,6 @@
-﻿namespace Kimera.Api.DTOs
+﻿namespace Kimera.Infrastructure.DTOs
 {
-    public class CreateMovieRequest
+    public class MovieDTO
     {
         public int TmdbId { get; set; }
         public string Title { get; set; } = string.Empty;
