@@ -1,7 +1,9 @@
-﻿namespace Kimera.Api.DTOs
+﻿using System.Text.Json.Serialization;
+namespace Kimera.Application.DTOs
 {
     public class MovieDTO
     {
+        [JsonPropertyName("id")]
         public int TmdbId { get; set; }
         public string Title { get; set; } = string.Empty;
         public string OriginalTitle { get; set; } = string.Empty;

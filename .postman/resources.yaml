@@ -1,0 +1,7 @@
+# Use this workspace to collaborate
+workspace:
+  id: e2c2f5be-cb38-4b45-898d-79704be99b81
+
+localResources:
+  specs:
+    - ../Kimera.Api/obj/Debug/net10.00/EndpointInfo/Kimera.Api.json

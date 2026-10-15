@@ -1,4 +1,6 @@
 ﻿using Kimera.Application.Interfaces;
+using Kimera.Application.Interfaces.Services;
+using Kimera.Infrastructure.External.Tmdb;
 using Kimera.Infrastructure.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -14,6 +16,7 @@ namespace Kimera.Infrastructure.Persistence.Configurations
             services.AddDbContext<MovieContext>(options =>
             options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
             services.AddScoped<IMovieRepository, MovieRepository>();
+            services.AddHttpClient<ITmdbService, TmdbService>();
             return services;
         }
     }
