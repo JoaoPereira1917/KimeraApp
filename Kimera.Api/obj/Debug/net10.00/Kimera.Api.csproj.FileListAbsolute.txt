@@ -88,7 +88,6 @@ C:\ProjetosC\KimeraApp\Kimera.Api\bin\Debug\net10.00\System.Configuration.Config
 C:\ProjetosC\KimeraApp\Kimera.Api\bin\Debug\net10.00\System.Formats.Nrbf.dll
 C:\ProjetosC\KimeraApp\Kimera.Api\bin\Debug\net10.00\System.Reflection.MetadataLoadContext.dll
 C:\ProjetosC\KimeraApp\Kimera.Api\bin\Debug\net10.00\System.Resources.Extensions.dll
-C:\ProjetosC\KimeraApp\Kimera.Api\bin\Debug\net10.00\System.Security.Cryptography.Pkcs.dll
 C:\ProjetosC\KimeraApp\Kimera.Api\bin\Debug\net10.00\System.Security.Cryptography.ProtectedData.dll
 C:\ProjetosC\KimeraApp\Kimera.Api\bin\Debug\net10.00\System.Security.Permissions.dll
 C:\ProjetosC\KimeraApp\Kimera.Api\bin\Debug\net10.00\System.Windows.Extensions.dll
@@ -157,7 +156,6 @@ C:\ProjetosC\KimeraApp\Kimera.Api\bin\Debug\net10.00\ru\Microsoft.CodeAnalysis.W
 C:\ProjetosC\KimeraApp\Kimera.Api\bin\Debug\net10.00\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\ProjetosC\KimeraApp\Kimera.Api\bin\Debug\net10.00\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\ProjetosC\KimeraApp\Kimera.Api\bin\Debug\net10.00\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\ProjetosC\KimeraApp\Kimera.Api\bin\Debug\net10.00\runtimes\win\lib\net10.0\System.Security.Cryptography.Pkcs.dll
 C:\ProjetosC\KimeraApp\Kimera.Api\bin\Debug\net10.00\runtimes\win\lib\net9.0\System.Windows.Extensions.dll
 C:\ProjetosC\KimeraApp\Kimera.Api\bin\Debug\net10.00\Kimera.Application.dll
 C:\ProjetosC\KimeraApp\Kimera.Api\bin\Debug\net10.00\Kimera.Domain.dll

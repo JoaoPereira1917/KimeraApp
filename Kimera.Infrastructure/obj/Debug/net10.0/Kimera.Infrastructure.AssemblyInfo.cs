@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kimera.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36bddb6a5ef106d1db01bbd68a1d527d7247e700")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3772ee6976cad2ea457ad710695ca420279668ac")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kimera.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kimera.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

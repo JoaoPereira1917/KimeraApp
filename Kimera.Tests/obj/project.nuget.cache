@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "961nIx6KB/A=",
+  "dgSpecHash": "8yWrZAGEzIs=",
   "success": true,
   "projectFilePath": "C:\\ProjetosC\\KimeraApp\\Kimera.Tests\\Kimera.Tests.csproj",
   "expectedPackageFiles": [
@@ -50,6 +50,7 @@
     "C:\\Users\\João\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.13\\microsoft.extensions.logging.abstractions.10.0.13.nupkg.sha512",
     "C:\\Users\\João\\.nuget\\packages\\microsoft.extensions.options\\10.0.13\\microsoft.extensions.options.10.0.13.nupkg.sha512",
     "C:\\Users\\João\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\10.0.13\\microsoft.extensions.options.configurationextensions.10.0.13.nupkg.sha512",
+    "C:\\Users\\João\\.nuget\\packages\\microsoft.extensions.options.dataannotations\\10.0.13\\microsoft.extensions.options.dataannotations.10.0.13.nupkg.sha512",
     "C:\\Users\\João\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.13\\microsoft.extensions.primitives.10.0.13.nupkg.sha512",
     "C:\\Users\\João\\.nuget\\packages\\microsoft.net.test.sdk\\17.14.1\\microsoft.net.test.sdk.17.14.1.nupkg.sha512",
     "C:\\Users\\João\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.14.1\\microsoft.testplatform.objectmodel.17.14.1.nupkg.sha512",

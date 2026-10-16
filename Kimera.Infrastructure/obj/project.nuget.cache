@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ova7m5KE+yM=",
+  "dgSpecHash": "2mijCd9ac+U=",
   "success": true,
   "projectFilePath": "C:\\ProjetosC\\KimeraApp\\Kimera.Infrastructure\\Kimera.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,7 @@
     "C:\\Users\\João\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.13\\microsoft.extensions.logging.abstractions.10.0.13.nupkg.sha512",
     "C:\\Users\\João\\.nuget\\packages\\microsoft.extensions.options\\10.0.13\\microsoft.extensions.options.10.0.13.nupkg.sha512",
     "C:\\Users\\João\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\10.0.13\\microsoft.extensions.options.configurationextensions.10.0.13.nupkg.sha512",
+    "C:\\Users\\João\\.nuget\\packages\\microsoft.extensions.options.dataannotations\\10.0.13\\microsoft.extensions.options.dataannotations.10.0.13.nupkg.sha512",
     "C:\\Users\\João\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.13\\microsoft.extensions.primitives.10.0.13.nupkg.sha512",
     "C:\\Users\\João\\.nuget\\packages\\npgsql\\10.0.0\\npgsql.10.0.0.nupkg.sha512",
     "C:\\Users\\João\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\10.0.0\\npgsql.entityframeworkcore.postgresql.10.0.0.nupkg.sha512"

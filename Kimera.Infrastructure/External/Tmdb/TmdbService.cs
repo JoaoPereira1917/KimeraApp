@@ -9,35 +9,30 @@ using Microsoft.Extensions.Configuration;
 
 namespace Kimera.Infrastructure.External.Tmdb
 {
-    public class TmdbService : ITmdbService
+    public class TmdbService(HttpClient httpClient) : ITmdbService
     {
-        private readonly string _apikey;
-        private readonly string _bearerToken;
-        private readonly HttpClient _httpClient;
-        public TmdbService(IConfiguration configuration, HttpClient httpClient)
+        
+        
+        private static readonly JsonSerializerOptions _jsonSerializerOptions = new()
         {
-            _apikey = configuration["TMDB:ApiKey"];
-            _bearerToken = configuration["TMDB:BearerToken"];
-            _httpClient = httpClient;
-            _httpClient.BaseAddress = new Uri("https://api.themoviedb.org/3/");
-        }
+            PropertyNameCaseInsensitive = true,
+            PropertyNamingPolicy = JsonNamingPolicy.SnakeCaseLower
+        };
+                      
+       
         // 1. Para exibir os resultados da busca semântica (ESSENCIAL)
         public async Task<MovieDTO> GetMovieDetailsByIdAsync(int tmdbId) {
 
             var request = new HttpRequestMessage(HttpMethod.Get, $"movie/{tmdbId}?language=pt-BR");
-            request.Headers.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", _bearerToken);
+            
 
-            var response = await _httpClient.SendAsync(request);
+            var response = await httpClient.SendAsync(request);
             response.EnsureSuccessStatusCode();
             
             var jsonString = await response.Content.ReadAsStringAsync();
-            
-            return JsonSerializer.Deserialize<MovieDTO>(jsonString,
-                new JsonSerializerOptions
-                {
-                    PropertyNameCaseInsensitive = true,
-                    PropertyNamingPolicy = JsonNamingPolicy.SnakeCaseLower
-                }) ?? throw new JsonException("TMDB returned an empty response.");
+
+            return JsonSerializer.Deserialize<MovieDTO>(jsonString, _jsonSerializerOptions
+                 ?? throw new JsonException("TMDB returned an empty response."));
         }
 
         // 2. Para popular seu banco de dados inicial (ESSENCIAL PARA MVP)

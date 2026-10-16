@@ -5,6 +5,7 @@ using Kimera.Infrastructure.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Options;
 
 
 namespace Kimera.Infrastructure.Persistence.Configurations
@@ -16,7 +17,19 @@ namespace Kimera.Infrastructure.Persistence.Configurations
             services.AddDbContext<MovieContext>(options =>
             options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
             services.AddScoped<IMovieRepository, MovieRepository>();
-            services.AddHttpClient<ITmdbService, TmdbService>();
+            services.AddOptions<TmdbOption>()
+                .Bind(configuration.GetSection(TmdbOption.SectionName))
+                .ValidateDataAnnotations()
+                .ValidateOnStart();
+                services.AddHttpClient<ITmdbService, TmdbService>((serviceProvider, client) =>
+                { var option = serviceProvider.GetRequiredService<IOptions<TmdbOption>>().Value; 
+                client.BaseAddress = new Uri(option.BaseUrl); 
+                client.Timeout = TimeSpan.FromSeconds(10);
+                    client.DefaultRequestHeaders.Accept.ParseAdd("application/json");
+                    client.DefaultRequestHeaders.Authorization = new 
+                            System.Net.Http.Headers.AuthenticationHeaderValue
+                                                ("Bearer", option.BearerToken);
+                });
             return services;
         }
     }
