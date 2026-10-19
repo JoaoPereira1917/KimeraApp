@@ -346,7 +346,8 @@
       },
       "Kimera.Application/1.0.0": {
         "dependencies": {
-          "Kimera.Domain": "1.0.0"
+          "Kimera.Domain": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "10.0.13"
         },
         "runtime": {
           "Kimera.Application.dll": {

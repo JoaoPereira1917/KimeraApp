@@ -1,9 +1,7 @@
 ﻿using Kimera.Application.DTOs;
 using Kimera.Application.Interfaces;
 using Kimera.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Text;
+
 
 namespace Kimera.Application.Services
 {
@@ -16,7 +14,7 @@ namespace Kimera.Application.Services
             _tmdbService = tmdbService;
             _movieRepository = movieRepository;
         }
-        public async Task<Movie> ImportMovieDtoToMovieAsync(int TmdbId)
+        public async Task<Movie> AddMovieDtoToMovieAsync(int TmdbId)
         {
             var dto = await  _tmdbService.GetMovieDetailsByIdAsync(TmdbId);
             var existing = await _movieRepository.GetByTmdbIdAsync((TmdbId));
@@ -29,6 +27,27 @@ namespace Kimera.Application.Services
             return movie;
 
 
+        }
+        
+        public async Task AddMoviesDtos(IEnumerable<MovieDTO> moviesDtos)
+        {
+            foreach (var dto in moviesDtos)
+            {
+                var existing = await _movieRepository.GetByTmdbIdAsync(dto.TmdbId);
+
+                if (existing is null)
+                {
+                    var movie = MapToEntity(dto);
+                    _movieRepository.AddAsync(movie);
+                }
+            }
+            
+
+        }
+        public async Task<IEnumerable<Movie>> ListDataBaseMovies()
+        {
+            var movies = await _movieRepository.ListAsync();
+            return movies;
         }
         private Movie MapToEntity(MovieDTO dto)
         {

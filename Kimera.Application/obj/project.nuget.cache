@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "QzGeR7Azqfc=",
+  "dgSpecHash": "2pevuzIYPj0=",
   "success": true,
   "projectFilePath": "C:\\ProjetosC\\KimeraApp\\Kimera.Application\\Kimera.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\João\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.13\\microsoft.extensions.dependencyinjection.10.0.13.nupkg.sha512",
+    "C:\\Users\\João\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.13\\microsoft.extensions.dependencyinjection.abstractions.10.0.13.nupkg.sha512"
+  ],
   "logs": []
 }

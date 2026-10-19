@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kimera.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+370e4b01934ab7e15b5f421ef1121d4aef1abdc0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd938f207d3e90f0be9f4288e9c405f8010c49d9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kimera.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kimera.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

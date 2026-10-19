@@ -12,7 +12,7 @@ namespace Kimera.Application.Interfaces
         Task<MovieDTO> GetMovieDetailsByIdAsync(int tmdbId);
 
         // 2. Para popular seu banco de dados inicial (ESSENCIAL PARA MVP)
-        //Task<IEnumerable<MovieDTO>> GetPopularMoviesAsync(int page = 1);
+        Task<IEnumerable<MovieDTO>> GetPopular70sMoviesAsync(int page = 1);
 
         // 3. Para busca filtrada (enriquece seu banco com dados específicos)
         //Task<IEnumerable<MovieDTO>> DiscoverMoviesAsync(int? genreId = null, int? year = null, int? minVoteCount = 100);

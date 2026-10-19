@@ -36,9 +36,20 @@ namespace Kimera.Infrastructure.External.Tmdb
         }
 
         // 2. Para popular seu banco de dados inicial (ESSENCIAL PARA MVP)
-        Task<IEnumerable<MovieDTO>> GetPopularMoviesAsync(int page = 1) { 
+        public async Task<IEnumerable<MovieDTO>> GetPopular70sMoviesAsync(int page = 1) {
+            var request = new HttpRequestMessage(HttpMethod.Get, $"discover/movie?sort_by=vote_count.desc&primary_release_date.gte=1970-01-01&primary_release_date.lte=1979-12-31&language=pt-BR&page={page}");
+            var response = await httpClient.SendAsync(request);
+            response.EnsureSuccessStatusCode();
 
+            var jsonString = await response.Content.ReadAsStringAsync();
+
+            var searchResult = JsonSerializer.Deserialize<TmdbPagedResponseDto<MovieDTO>>(jsonString, _jsonSerializerOptions)
+                ?? throw new JsonException("TMDB returned an empty response.");
+            return searchResult.Results;
         }
+        
+
+        
 
         // 3. Para busca filtrada (enriquece seu banco com dados específicos)
        // Task<IEnumerable<MovieDTO>> DiscoverMoviesAsync(int? genreId = null, int? year = null, int? minVoteCount = 100){ }

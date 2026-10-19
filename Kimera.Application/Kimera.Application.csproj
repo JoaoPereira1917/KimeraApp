@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <Compile Include="DTOs\MovieDTO.cs" />
+    <Compile Include="DTOs\TmdbPagedResponseDto.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,6 +23,10 @@
 
   <ItemGroup>
     <Folder Include="DependencyInjection\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.13" />
   </ItemGroup>
 
 </Project>
