@@ -4,7 +4,7 @@ using System.Text;
 using Kimera.Application.DTOs;
 
 
-namespace Kimera.Application.Interfaces.Services
+namespace Kimera.Application.Services
 {
     public interface ITmdbService
     {
