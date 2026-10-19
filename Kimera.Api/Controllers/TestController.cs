@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 
 using Kimera.Domain.Entities;
-using Kimera.Application.Interfaces.Services;
 
 
 namespace Kimera.Api.Controllers

@@ -1,4 +1,5 @@
-﻿using Kimera.Application.Interfaces;
+﻿using Kimera.Application.DTOs;
+using Kimera.Application.Interfaces;
 using Kimera.Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -23,9 +24,28 @@ namespace Kimera.Application.Services
             {
                 return existing;
             }
-            var Movie = MapToEntity(dto);
+            var movie = MapToEntity(dto);
+            _movieRepository.AddAsync(movie);
+            return movie;
 
 
+        }
+        private Movie MapToEntity(MovieDTO dto)
+        {
+            return new Movie(
+                tmdbId: dto.TmdbId,
+                title: dto.Title,
+                originalTitle: dto.OriginalTitle,
+                overview: dto.Overview,
+                releaseDate: dto.ReleaseDate,
+                runtime: dto.Runtime,
+                originalLanguage: dto.OriginalLanguage,
+                voteAverage: dto.VoteAverage,
+                voteCount: dto.VoteCount,
+                posterPath: dto.PosterPath,
+                backdropPath: dto.BackdropPath
+                );
+            
         }
     }
 }

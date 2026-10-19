@@ -1,5 +1,4 @@
 ﻿using Kimera.Application.Interfaces;
-using Kimera.Application.Services;
 using Kimera.Infrastructure.External.Tmdb;
 using Kimera.Infrastructure.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;

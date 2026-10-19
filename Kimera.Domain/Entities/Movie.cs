@@ -1,5 +1,6 @@
 ﻿
 using Kimera.Domain.Common;
+using System.Dynamic;
 
 namespace Kimera.Domain.Entities
 {
@@ -37,7 +38,7 @@ namespace Kimera.Domain.Entities
             GuardClauses.IsSmallerOrEqualThanZero(tmdbId, nameof(tmdbId));
             GuardClauses.IsSmallerOrEqualThanZero(runtime, nameof(runtime));
             GuardClauses.IsInvalidRange(voteAverage, nameof(voteAverage), 0m, 10m);
-            GuardClauses.IsSmallerThanZero(voteCount, nameof(voteCount));         
+            GuardClauses.IsSmallerThanZero(voteCount, nameof(voteCount));
 
             if (releaseDate == default)
                 throw new ArgumentException("Release date must be provided.", nameof(releaseDate));
@@ -67,5 +68,7 @@ namespace Kimera.Domain.Entities
             BackdropPath = backdropPath;
             UpdatedAt = DateTime.UtcNow;
         }
+        
     }
+
 }

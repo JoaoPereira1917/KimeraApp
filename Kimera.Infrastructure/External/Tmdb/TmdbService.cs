@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Text.Json;
 using Kimera.Application.DTOs;
-using Kimera.Application.Interfaces.Services;
+using Kimera.Application.Interfaces;
 using Microsoft.Extensions.Configuration;
 
 
@@ -36,7 +36,9 @@ namespace Kimera.Infrastructure.External.Tmdb
         }
 
         // 2. Para popular seu banco de dados inicial (ESSENCIAL PARA MVP)
-        //Task<IEnumerable<MovieDTO>> GetPopularMoviesAsync(int page = 1) { }
+        Task<IEnumerable<MovieDTO>> GetPopularMoviesAsync(int page = 1) { 
+
+        }
 
         // 3. Para busca filtrada (enriquece seu banco com dados específicos)
        // Task<IEnumerable<MovieDTO>> DiscoverMoviesAsync(int? genreId = null, int? year = null, int? minVoteCount = 100){ }
