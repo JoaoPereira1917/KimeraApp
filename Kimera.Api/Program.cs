@@ -2,6 +2,7 @@ using Kimera.Api.Exceptions;
 using Kimera.Application.Interfaces;
 using Kimera.Infrastructure.Persistence.Configurations;
 using Swashbuckle.AspNetCore.SwaggerUI;
+using Kimera.Application.DependencyInjection;
 using Microsoft.AspNetCore.Diagnostics; // necessário para IExceptionHandler / IExceptionHandlerFeature
 using Microsoft.AspNetCore.Http; // necessário para StatusCodes
 
@@ -11,6 +12,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddInfra(builder.Configuration);
+builder.Services.AddApplication();
 
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();
